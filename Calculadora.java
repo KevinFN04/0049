@@ -7,14 +7,20 @@
  */
 public class Calculadora
 {
-    //
+    //Atributo que guarda los numeros de la calculadora
     private int numero;
     
+    /**
+     * Constructor de Calculadora que inicializa sus parametros.
+     */
     public Calculadora()
     {
         numero = 0;
     }
     
+    /**
+     * Metodo que calcula los multiplos de 5 entre 10 y 95 (ambos no incluidos).
+     */
     public void multiplesOfFive()
     {
         numero = 10;
@@ -24,5 +30,23 @@ public class Calculadora
             System.out.println(numero);
         }
     }
+    
+    /**
+     * Metodo que imprime por pantalla la suma de los números comprendidos entre el 0 y el 10 (ambos incluidos).
+     */
+    public void sumValues()
+    {
+        int indice = 0;
+        numero = 0;
+        
+        while (indice < 11)
+        {
+            numero = numero + indice;
+            indice++;
+        }
+        
+        System.out.println(numero);
+    }
+    
     
 }
