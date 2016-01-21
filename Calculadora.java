@@ -48,5 +48,26 @@ public class Calculadora
         System.out.println(numero);
     }
     
-    
+     /**
+     * Metodo que imprime por pantalla la suma de dos numeros dados por parametro (ambos incluidos).
+     */
+    public void sumValuesInterval(int a, int b)
+    {
+        int indice = a;
+        numero = 0;
+        
+        if (b < a){
+            a = b;
+            b = indice;
+            indice = a;
+        }
+        
+        while (indice >= a && indice <= b)
+        {
+            numero = numero + indice;
+            indice++;
+        }
+        
+        System.out.println(numero);
+    }
 }
