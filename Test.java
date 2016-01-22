@@ -29,38 +29,38 @@ public class Test
         }
         if (b != 165){
             esCorrecto = false;
-            System.out.println("Comprobando sumValuesInterval(0, 10)... resultado correcto 55 / resultado metodo " + a + "... ERROR!");
+            System.out.println("Comprobando sumValuesInterval(0, 10)... resultado correcto 55 / resultado metodo " + b + "... ERROR!");
         }
         else{
-            System.out.println("Comprobando sumValuesInterval(0, 10)... resultado correcto 55 / resultado metodo " + a + "... OK!");
+            System.out.println("Comprobando sumValuesInterval(0, 10)... resultado correcto 55 / resultado metodo " + b + "... OK!");
         }
         if (c != 315){
             esCorrecto = false;
-            System.out.println("Comprobando sumValuesInterval(0, 10)... resultado correcto 55 / resultado metodo " + a + "... ERROR!");
+            System.out.println("Comprobando sumValuesInterval(0, 10)... resultado correcto 55 / resultado metodo " + c + "... ERROR!");
         }
         else{
-            System.out.println("Comprobando sumValuesInterval(0, 10)... resultado correcto 55 / resultado metodo " + a + "... OK!");
+            System.out.println("Comprobando sumValuesInterval(0, 10)... resultado correcto 55 / resultado metodo " + c + "... OK!");
         }
         if (d != 4860){
             esCorrecto = false;
-            System.out.println("Comprobando sumValuesInterval(0, 10)... resultado correcto 55 / resultado metodo " + a + "... ERROR!");
+            System.out.println("Comprobando sumValuesInterval(0, 10)... resultado correcto 55 / resultado metodo " + d + "... ERROR!");
         }
         else{
-            System.out.println("Comprobando sumValuesInterval(0, 10)... resultado correcto 55 / resultado metodo " + a + "... OK!");
+            System.out.println("Comprobando sumValuesInterval(0, 10)... resultado correcto 55 / resultado metodo " + d + "... OK!");
         }
         if (e != -1){
             esCorrecto = false;
-            System.out.println("Comprobando sumValuesInterval(0, 10)... resultado correcto 55 / resultado metodo " + a + "... ERROR!");
+            System.out.println("Comprobando sumValuesInterval(0, 10)... resultado correcto 55 / resultado metodo " + e + "... ERROR!");
         }
         else{
-            System.out.println("Comprobando sumValuesInterval(0, 10)... resultado correcto 55 / resultado metodo " + a + "... OK!");
+            System.out.println("Comprobando sumValuesInterval(0, 10)... resultado correcto 55 / resultado metodo " + e + "... OK!");
         }
         if (f != -1){
             esCorrecto = false;
-            System.out.println("Comprobando sumValuesInterval(0, 10)... resultado correcto 55 / resultado metodo " + a + "... ERROR!");
+            System.out.println("Comprobando sumValuesInterval(0, 10)... resultado correcto 55 / resultado metodo " + f + "... ERROR!");
         }
         else{
-            System.out.println("Comprobando sumValuesInterval(0, 10)... resultado correcto 55 / resultado metodo " + a + "... OK!");
+            System.out.println("Comprobando sumValuesInterval(0, 10)... resultado correcto 55 / resultado metodo " + f + "... OK!");
         }
         
         if (esCorrecto == false){
@@ -92,38 +92,38 @@ public class Test
         }
         if (b != true){
             esCorrecto = false;
-            System.out.println("Comprobando isPrime(13)... resultado correcto true / resultado metodo " + a + "... ERROR!");
+            System.out.println("Comprobando isPrime(13)... resultado correcto true / resultado metodo " + b + "... ERROR!");
         }
         else{
-            System.out.println("Comprobando isPrime(13)... resultado correcto true / resultado metodo " + a + "... OK!");
+            System.out.println("Comprobando isPrime(13)... resultado correcto true / resultado metodo " + b + "... OK!");
         }
         if (c != true){
             esCorrecto = false;
-            System.out.println("Comprobando isPrime(10)... resultado correcto false / resultado metodo " + a + "... ERROR!");
+            System.out.println("Comprobando isPrime(10)... resultado correcto false / resultado metodo " + c + "... ERROR!");
         }
         else{
-            System.out.println("Comprobando isPrime(10)... resultado correcto false / resultado metodo " + a + "... OK!");
+            System.out.println("Comprobando isPrime(10)... resultado correcto false / resultado metodo " + c + "... OK!");
         }
         if (d != true){
             esCorrecto = false;
-            System.out.println("Comprobando isPrime(8)... resultado correcto false / resultado metodo " + a + "... ERROR!");
+            System.out.println("Comprobando isPrime(8)... resultado correcto false / resultado metodo " + d + "... ERROR!");
         }
         else{
-            System.out.println("Comprobando isPrime(8)... resultado correcto false / resultado metodo " + a + "... OK!");
+            System.out.println("Comprobando isPrime(8)... resultado correcto false / resultado metodo " + d + "... OK!");
         }
         if (e != true){
             esCorrecto = false;
-            System.out.println("Comprobando isPrime(-3)... resultado correcto false / resultado metodo " + a + "... ERROR!");
+            System.out.println("Comprobando isPrime(-3)... resultado correcto false / resultado metodo " + e + "... ERROR!");
         }
         else{
-            System.out.println("Comprobando isPrime(-3)... resultado correcto false / resultado metodo " + a + "... OK!");
+            System.out.println("Comprobando isPrime(-3)... resultado correcto false / resultado metodo " + e + "... OK!");
         }
         if (f != true){
             esCorrecto = false;
-            System.out.println("Comprobando isPrime(62)... resultado correcto false / resultado metodo " + a + "... ERROR!");
+            System.out.println("Comprobando isPrime(62)... resultado correcto false / resultado metodo " + f + "... ERROR!");
         }
         else{
-            System.out.println("Comprobando isPrime(62)... resultado correcto false / resultado metodo " + a + "... OK!");
+            System.out.println("Comprobando isPrime(62)... resultado correcto false / resultado metodo " + f + "... OK!");
         }
         
         if (esCorrecto == false){

@@ -69,27 +69,48 @@ public class Calculadora
     }
 
     /**
-     * 
+     * Metodo que indica si el numero introducido es primo o no.
      */
     public boolean isPrime(int n)
     {
         boolean esPrimo = false;       
         int numero = n - 1;
-        float resultado = 0;
-        while (n % numero != 0 && esPrimo != true && n > 0){
-            if (numero > 2){
-                resultado = n / numero;
-                numero = numero - 1;
-            }
-            else if (n == 2){
-                esPrimo = true;
-            }
-            else{
-                esPrimo = true;
+        if (n !=1){
+            while (n % numero != 0 && esPrimo != true){
+                if (numero > 2){
+                    numero = numero - 1;
+                }
+                else{
+                    esPrimo = true;
+                }
             }
         }
-        
+        if (n == 2){
+            esPrimo = true;
+        }
+        if (n == 1){
+            System.out.println("ERROR!");
+        }
         return esPrimo;
+    }
+
+    /**
+     * Metodo para multiplicar dos numeros(utilizando unicamente sumas y restas).
+     */
+    public int multiplicar(int a, int b){
+        int contador = 0;
+        int numero = 0;
+        if (a >= 0 && b >= 0){
+            while (contador != b){
+                numero = numero + a;
+                contador++;
+            }
+        }
+        else{
+            numero = -1;
+            System.out.println("ERROR!");
+        }
+        return numero;
     }
 }
 
