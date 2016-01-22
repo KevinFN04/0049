@@ -76,7 +76,7 @@ public class Calculadora
         boolean esPrimo = false;       
         int numero = n - 1;
         float resultado = 0;
-        while (n % numero != 0 && esPrimo != true){
+        while (n % numero != 0 && esPrimo != true && n > 0){
             if (numero > 2){
                 resultado = n / numero;
                 numero = numero - 1;
@@ -88,7 +88,7 @@ public class Calculadora
                 esPrimo = true;
             }
         }
-
+        
         return esPrimo;
     }
 }
